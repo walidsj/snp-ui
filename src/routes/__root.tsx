@@ -7,6 +7,7 @@ import {
   Scripts,
 } from "@tanstack/react-router";
 import appCss from "@/styles/globals.css?url";
+import faviconImg from "@/favicon.svg?url";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -15,7 +16,10 @@ export const Route = createRootRoute({
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "A simple component library for React - snp.ui" },
     ],
-    links: [{ rel: "stylesheet", href: appCss }],
+    links: [
+      { rel: "stylesheet", href: appCss },
+      { rel: "icon", href: faviconImg },
+    ],
   }),
   component: RootComponent,
 });

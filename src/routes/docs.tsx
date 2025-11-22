@@ -27,7 +27,7 @@ function RouteComponent() {
             <span className="text-muted">ui</span>
           </h1>
           <p className="text-muted text-sm">
-            A simple component library for React.
+            A lightweight React component library.
           </p>
         </div>
         <nav>

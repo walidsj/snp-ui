@@ -4,8 +4,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build"
+    "dev": "vite dev --port 3000",
+    "build": "vite build",
+    "start": "bun run server.ts"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.17",

@@ -18,7 +18,7 @@ export const Route = createFileRoute("/docs")({
 function RouteComponent() {
   return (
     <div className="bg-background flex min-h-dvh flex-row">
-      <aside className="w-xs border-r border-dotted p-3">
+      <aside className="w-xs border-r border-dashed p-3">
         <div className="mb-5 p-3">
           <h1 className="inline-flex items-center text-2xl font-bold">
             <IconPhotoCircle className="text-primary mr-1 -ml-1 size-8" />

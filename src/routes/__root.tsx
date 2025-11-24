@@ -13,7 +13,7 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "A simple component library for React - snp.ui" },
+      { title: "A lightweight React component library - snp.ui" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

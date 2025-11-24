@@ -8,17 +8,17 @@ export const Route = createFileRoute("/")({
 
 function RouteComponent() {
   return (
-    <div className="flex min-h-dvh flex-col items-center justify-center gap-3">
+    <div className="flex min-h-dvh flex-col items-center justify-center gap-1">
       <h1 className="inline-flex items-center gap-3 text-4xl font-bold">
         Welcome to{" "}
         <div className="inline-flex items-center font-bold">
           <IconPhotoCircle className="text-primary mr-1 -ml-1 size-14" />
           <span>snp</span>
-          <IconPointFilled className="text-destructive size-3" />
+          <IconPointFilled className="text-destructive size-5" />
           <span className="text-muted">ui</span>
         </div>
       </h1>
-      <p className="text-muted mb-5">A lightweight React component library.</p>
+      <p className="text-muted mb-8">A lightweight React component library.</p>
       <div className="inline-flex gap-3">
         <Button render={<Link to="/docs/installation">Get Started</Link>} />
         <Button

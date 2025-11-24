@@ -20,12 +20,14 @@ function RouteComponent() {
     <div className="bg-background flex min-h-dvh flex-row">
       <aside className="w-xs border-r border-dashed p-3">
         <div className="mb-5 p-3">
-          <h1 className="inline-flex items-center text-2xl font-bold">
-            <IconPhotoCircle className="text-primary mr-1 -ml-1 size-8" />
-            <span>snp</span>
-            <IconPointFilled className="text-destructive size-3" />
-            <span className="text-muted">ui</span>
-          </h1>
+          <Link to="/">
+            <h1 className="inline-flex items-center text-2xl font-bold">
+              <IconPhotoCircle className="text-primary mr-1 -ml-1 size-8" />
+              <span>snp</span>
+              <IconPointFilled className="text-destructive size-3" />
+              <span className="text-muted">ui</span>
+            </h1>
+          </Link>
           <p className="text-muted text-sm">
             A lightweight React component library.
           </p>
